@@ -4,6 +4,8 @@ Jaanga Terrain DE3 32-63
 [<img src=https://raw2.github.com/jaanga/terrain-de3-0-31/ghpages/20/49.png width=320 />](https://raw2.github.com/jaanga/terrain-de3-0-31/ghpages/20/49.png)  
 *Click image to open. Then look carefully and you will see the San Francisco Bay Area.*
 
+[PNG Viewer]( http://jaanga.github.io/terrain-de3-32-63/png-viewer.html )
+
 ## Concept
 
 Provide digital elevation heightmaps to an accuracy of three seconds in a format and with methods 
@@ -13,7 +15,7 @@ so that entry and intermediate level programmers may quickly and easily create n
 
 The data in this repository was sourced from Jonathan de Ferranti's web site: [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/dem3.html ).
 
-Ferranti's data was converted using [GDAL]( http://www.gdal.org/ ) and [OSGeo]( http://www.osgeo.org/ ).
+Ferranti's data was converted from binary HGT files to PNG files using [GDAL]( http://www.gdal.org/ ) and [OSGeo]( http://www.osgeo.org/ ).
 
 And, of course, none of this would be possible without GitHub.
 
@@ -31,7 +33,7 @@ There is much more information regarding this project at [Jaanga Terrain]( http:
 
 The files in this repository correspond to TMS/Slippy Map zoom level 7.
 
-This repository contains 4,096 files contained in 32 folders of 128 files each.
+This repository contains 4,096 PNG heightmap files contained in 32 folders of 128 files each.
 
 This is the second of four repositories that in total contain all the required 128 folders.
 
